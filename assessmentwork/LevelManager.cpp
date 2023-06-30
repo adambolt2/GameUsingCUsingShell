@@ -813,9 +813,7 @@ void LevelManager::update(float frametime) {
 		// end of player limits
 		// its here and not coded in spaceship due to me wanting to only limit <- direction and not -> in other levels except level 3
 		// mouse pointer broke with same logic due to Mpos
-	// So setting the ground only works if the player jumps at least once. This is due to the ground level being only used when jumping. This is becoming annoying
-	// This is due to me trying to be smart and using walk left and right in GameObj, without adding gravity to them. Must be a way around this without changing GameObj
-	// this is the last thing i need to focus on tho. Lets focus on finishing the game first fully and get to this part
+	
 }
 
 
